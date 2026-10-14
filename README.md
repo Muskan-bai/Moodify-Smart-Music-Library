@@ -1,16 +1,46 @@
-# React + Vite
+ Moodify - Smart Music Library 🎵
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Moodify is a music library website that I'm currently developing using React and JavaScript.
 
-Currently, two official plugins are available:
+ About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The idea for Moodify came to me while using music apps. I noticed that whenever I liked songs from different genres or moods, they all ended up in one liked songs collection.
 
-## React Compiler
+For example, sometimes I want to listen to relaxing songs, while other times I want energetic or romantic songs. Finding those songs in one large collection can be frustrating.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+That's why I decided to create Moodify, a website where users can organize their favorite songs into different folders according to their moods, activities, or personal preferences.
 
-## Expanding the ESLint configuration
+ Features Implemented
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Create different music folders
+- Give each folder a custom name
+- Add songs to specific folders
+- Open folders and view saved songs
+- Keep saved folders and songs after refreshing the page
+- Simple and interactive interface
+
+ Technologies Used
+
+- React.js
+- JavaScript
+- CSS
+- Vite
+
+ How to Run
+
+1. Clone or download the repository.
+2. Open the project in VS Code.
+3. Run `npm install` to install the dependencies.
+4. Run `npm run dev` to start the website.
+5. Open the local URL shown in the terminal.
+
+ Current Status
+
+This project is still under development. I'm working on improving the interface and adding more features.
+
+ Future Plans
+
+- Add music search functionality
+- Add a music player
+- Improve the overall user experience
+- Add more customization options for folders
